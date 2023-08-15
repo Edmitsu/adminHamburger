@@ -1,0 +1,39 @@
+{
+  "routes": {
+    "/products": "/products",
+    "/employees": "/employees"
+  },
+  "orders": [
+    {
+      "id": 1,
+      "customerName": "John Doe",
+      "items": [
+        { "productName": "Cheeseburger", "quantity": 2 },
+        { "productName": "Fries", "quantity": 1 }
+      ],
+      "status": "pending",
+      "total": 20.97 
+    },
+    {
+      "id": 2,
+      "customerName": "Jane Smith",
+      "items": [
+        { "productName": "Chicken Burger", "quantity": 1 },
+        { "productName": "Salad", "quantity": 1 }
+      ],
+      "status": "in_progress",
+      "total": 13.98 
+    }
+  ],
+  "products": [
+    { "id": 1, "name": "Cheeseburger", "price": 8.99 },
+    { "id": 2, "name": "Fries", "price": 2.99 },
+    { "id": 3, "name": "Chicken Burger", "price": 7.99 },
+    { "id": 4, "name": "Salad", "price": 5.99 }
+  ],
+  "employees": [
+    { "id": 1, "name": "Alice Johnson", "position": "Cashier" },
+    { "id": 2, "name": "Bob Williams", "position": "Cook" },
+    { "id": 3, "name": "Eva Davis", "position": "Server" }
+  ]
+}
